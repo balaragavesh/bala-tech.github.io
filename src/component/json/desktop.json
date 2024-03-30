@@ -1,0 +1,82 @@
+[
+  {
+    "id": 11,
+    "productName": "Logitech MX Master 3 Wireless Mouse",
+    "image": "/src/assets/img1.jpg",
+    "type": "Mouse",
+    "price": 99,
+    "description": "The Logitech MX Master 3 is an advanced wireless mouse designed for productivity. It features ultrafast and precise scrolling, customizable buttons, and ergonomic design for comfortable use."
+  },
+  {
+    "id": 12,
+    "productName": "Apple Magic Keyboard",
+    "image": "/src/assets/img1.jpg",
+    "type": "Keyboard",
+    "price": 129,
+    "description": "The Apple Magic Keyboard is a sleek and responsive keyboard with a scissor mechanism, offering a comfortable typing experience for Mac users."
+  },
+  {
+    "id": 13,
+    "productName": "Samsung 32-inch 4K UHD Monitor",
+    "image": "/src/assets/img1.jpg",
+    "type": "Monitor",
+    "price": 499,
+    "description": "The Samsung 32-inch 4K UHD Monitor delivers stunning picture quality and sharp resolution, ideal for multimedia consumption, productivity, and gaming."
+  },
+  {
+    "id": 14,
+    "productName": "Seagate Expansion 4TB External Hard Drive",
+    "image": "/src/assets/img1.jpg",
+    "type": "Storage",
+    "price": 89,
+    "description": "The Seagate Expansion 4TB External Hard Drive offers a large storage capacity for backing up files, expanding storage, and easy plug-and-play functionality."
+  },
+  {
+    "id": 15,
+    "productName": "HyperX Cloud II Gaming Headset",
+    "image": "/src/assets/img1.jpg",
+    "type": "Headset",
+    "price": 99,
+    "description": "The HyperX Cloud II Gaming Headset provides excellent sound quality and comfort, perfect for gamers with its immersive audio experience and durable build."
+  },
+  {
+    "id": 16,
+    "productName": "Anker 10-Port USB 3.0 Data Hub",
+    "image": "/src/assets/img1.jpg",
+    "type": "USB Hub",
+    "price": 39,
+    "description": "The Anker 10-Port USB 3.0 Data Hub expands connectivity options, allowing multiple devices to be connected to your computer with high-speed data transfer."
+  },
+  {
+    "id": 17,
+    "productName": "Blue Yeti USB Microphone",
+    "image": "/src/assets/img1.jpg",
+    "type": "Microphone",
+    "price": 129,
+    "description": "The Blue Yeti USB Microphone is a versatile and high-quality mic suitable for streaming, podcasting, voiceovers, and professional-level recording."
+  },
+  {
+    "id": 18,
+    "productName": "Lamicall Adjustable Laptop Stand",
+    "image": "/src/assets/img1.jpg",
+    "type": "Laptop Stand",
+    "price": 29,
+    "description": "The Lamicall Adjustable Laptop Stand is a sturdy and ergonomic stand designed to improve airflow and posture while working with a laptop."
+  },
+  {
+    "id": 19,
+    "productName": "APC Back-UPS Pro 1500VA UPS Battery Backup & Surge Protector",
+    "image": "/src/assets/img1.jpg",
+    "type": "UPS",
+    "price": 189,
+    "description": "The APC Back-UPS Pro 1500VA UPS Battery Backup & Surge Protector provides battery backup during power outages, surge protection, and energy-saving features for connected devices."
+  },
+  {
+    "id": 20,
+    "productName": "Wacom Intuos Pro Graphics Drawing Tablet",
+    "image": "/src/assets/img1.jpg",
+    "type": "Drawing Tablet",
+    "price": 349,
+    "description": "The Wacom Intuos Pro Graphics Drawing Tablet is an advanced tool for digital artists and designers, offering precision and sensitivity for creative work."
+  }
+]

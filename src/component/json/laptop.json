@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "productName": "HP Probook 640 g2",
+    "image": "/src/assets/HP 640 g2.jpg",
+    "cpu": "Intel core i5 processor",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "screen": "14-inch, Liquid Retina XDR display",
+    "price": 1999,
+    "description": "The Apple MacBook Pro is a powerful and versatile laptop that is perfect for creative professionals, students, and business users. It features a stunning Liquid Retina XDR display, a blazing-fast M1 Pro or M1 Max chip, and a long-lasting battery."
+  },
+  {
+    "id": 2,
+    "productName": "Dell Latitude 3350",
+    "image": "/src/assets/DELL latitiude 3350.jpg",
+    "cpu": "Intel core i5 5th gen",
+    "ram": "4GB",
+    "storage": "500GB Harddisk",
+    "screen": "13.4-inch, InfinityEdge display",
+    "price": 1299,
+    "description": "The Dell XPS 13 is a sleek and portable laptop that is perfect for students and business users. It features a stunning InfinityEdge display, a powerful Intel Core i7 processor, and a long-lasting battery."
+  },
+  {
+    "id": 3,
+    "productName": "Dell Lattitude 7390",
+    "image": "/src/assets/DELL latitude 7390.jpg",
+    "cpu": "Intel i5 8th gen",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "screen": "13.4-inch, InfinityEdge display",
+    "price": 1299,
+    "description": "The Dell XPS 13 is a sleek and portable laptop that is perfect for students and business users. It features a stunning InfinityEdge display, a powerful Intel Core i7 processor, and a long-lasting battery."
+  }
+ 
+]
