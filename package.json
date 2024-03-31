@@ -2,7 +2,7 @@
 
   "homepage": "https://bala-tech.github.io",
   "name": "laptop",
-  "private": "false",
+  "private": "true",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
