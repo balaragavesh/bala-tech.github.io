@@ -41,10 +41,10 @@ function App() {
         <Navbar handleHome={handleHome} handleAbout={handleAbout} handleContact={handleContact} handleService={handleService} handleLaptop={handleLaptop} />
         <Hero homeref={homeref} laptopref={laptopref} handleAbout id="home" />
         <About aboutref={aboutref} id="about" />
-        <Services servicesref={servicesref} id="services" />
-        <Blog contactref={contactref} id="blog" />
+        <Services handleContact={handleContact} servicesref={servicesref} id="services" />
+        <Blog id="blog" />
         {/* <Laptop laptopref={laptopref} id="laptop" /> */}
-        <Footer />
+        <Footer contactref={contactref}  />
       </Element>
     </div>
   );

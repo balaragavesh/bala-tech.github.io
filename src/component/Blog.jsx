@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Section from "./Section";
 
-export default function Blog({contactref}) {
+export default function Blog() {
   const title1 = "Expertise";
   const title2 = "Customer satisfaction";
   const content1 =
@@ -37,12 +37,12 @@ export default function Blog({contactref}) {
   }, [counter]); // Run effect whenever the counter changes
 
   return (
-    <div ref={contactref}>
+    <div >
       <div className="min-h-screen w-full md:w-full flex justify-center items-center flex-col font-Poppins px-5 md:px-40 bg-gray-300 text-lg text-justify py-10">
         <h1 className="font-Montserrat text-5xl px-5 md:px-40 py-10 multicolor-text font-bold">
           Why choose us
         </h1>
-        <div>
+        <div className="">
           <Section src={src1} content={content1} order={""} title={title1} />
           <Section 
             src={src2}
@@ -52,12 +52,12 @@ export default function Blog({contactref}) {
           />
         </div>
       </div>
-      <div className="w-full h-60 flex justify-center items-center bg-slate-900 px-5 md:px-20" >
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="w-full flex justify-center items-center bg-slate-900 px-5 py-10 md:px-20" >
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {data.map((item, index) => (
             <h1
               key={index}
-              className="font-semibold animate-fade-up animate-ease-in text-5xl text-gray-100 font-Montserrat"
+              className="flex flex-col font-semibold animate-fade-up animate-ease-in text-5xl text-gray-100 font-Montserrat"
             >
               {item.h1}{" "}
               <span className="text-lg text-gray-200 font-Poppins">
