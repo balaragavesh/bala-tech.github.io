@@ -4,7 +4,7 @@ import LaptopList from "./LaptopList";
 import Category from "../Category";
 import Blog from "../Blog";
 export default function Hero({homeref,laptopref}) {
-  const img1 = "url('/src/assets/img1.jpg')";
+  const img1 = "url('/img1.jpg')";
   const [width, setWidth] = useState(window.innerWidth);
   window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
