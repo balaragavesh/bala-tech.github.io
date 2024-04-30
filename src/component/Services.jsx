@@ -12,7 +12,7 @@ export default function Services({ servicesref,handleContact }) {
     {
       title: "Upgrades for system",
       description:
-        "Elevate your laptop's performance and capabilities with our tailored hardware upgrades. Whether it's expanding RAM for smoother multitasking, augmenting storage capacities for increased data retention, or enhancing processor power for faster computations, our upgrade solutions are customized to meet evolving user demands, ensuring optimal device performance for varied computing needs",
+        "Elevate your laptop's performance and capabilities with our tailored hardware upgrades. Whether it's expanding RAM for smoother multitasking, augmenting storage capacities for increased data retention, or enhancing processor power for faster computations.",
       feature: ["feature 1", "feature 2", "feature 3"],
       imgurl: "/upgrades.jpg",
     },
@@ -61,7 +61,7 @@ export default function Services({ servicesref,handleContact }) {
                 className="w-full md:w-full h-48  justify-center"
               />
               <h4 className=" text-2xl py-3">{item.title}</h4>
-              <p className="text-gray-40 font-medium">{item.description}</p>
+              <p className="text-gray-40 font-medium justify-paragraphy">{item.description}</p>
 
               {/*
             <ul className="list-disc px-10">

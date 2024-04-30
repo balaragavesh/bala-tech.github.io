@@ -6,7 +6,7 @@ export default function Footer({ contactref }) {
       ref={contactref}
       className="font-Poppins text-center bg-zinc-900 text-gray-100 py-20"
     >
-      <div className="container mx-auto grid md:grid-cols-3  px-4">
+      <div className="container mx-auto grid md:grid-cols-3 px-4">
         <div className="md:w-1/3 mb-4 md:mb-0 md:text-left text-center">
           <p>Follow us on social media:</p>
           <div className="flex justify-center md:justify-start mt-2">
