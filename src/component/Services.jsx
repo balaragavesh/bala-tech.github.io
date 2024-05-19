@@ -43,17 +43,17 @@ export default function Services({ servicesref,handleContact }) {
   return (
     <div
       ref={servicesref}
-      className="w-full py-28 min-h-screen bg-white text-black justify-center items-center p-15"
+      className="w-full py-28 min-h-screen bg-white text-black justify-center items-center lg:px-40"
     >
-      <h1 className="multicolor-text font-Montserrat text-5xl md:text-5xl font-bold text-center">
+      <h1 className="multicolor-text font-Montserrat text-3xl md:text-5xl font-bold text-center">
         Our Services
       </h1>
       <div>
-        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 md:mx-20 my-20 ">
+        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10">
           {serviceData.map((item, index) => (
             <div
               key={index}
-              className="font-Montserrat  bg-zinc-200 p-5 rounded text-black-100 font-bold"
+              className="font-Montserrat  bg-zinc-100 p-5 rounded text-black-100 font-bold"
             >
               <img
                 src={item.imgurl}

@@ -9,7 +9,7 @@ export default function Section({ content, src, order,title }) {
         alt="Image for blog"
       />
       <div className="lg:w-1/2 md:p-10 flex flex-col items-center justify-center">
-        <h1 className="font-bold text-4xl font-Montserrat mb-2">{title}</h1>
+        <h1 className="font-bold text-2xl md:text-4xl font-Montserrat mb-2">{title}</h1>
         <p>{content}</p>
       </div>
     </div>

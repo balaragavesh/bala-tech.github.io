@@ -7,9 +7,9 @@ export default function Footer({ contactref }) {
       className="font-Poppins text-center bg-zinc-900 text-gray-100 py-20"
     >
       <div className="container mx-auto grid md:grid-cols-3  px-4">
-        <div className="md:w-1/3 mb-4 md:mb-0 md:text-left text-center">
+        <div className=" mb-4 md:mb-0 md:text-left text-center">
           <p>Follow us on social media:</p>
-          <div className="flex justify-center md:justify-start mt-2">
+          <div className="flex multicolor-text justify-center md:justify-start mt-2">
             <a
               href="https://www.linkedin.com"
               className="mr-4"
@@ -49,8 +49,8 @@ export default function Footer({ contactref }) {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2779.035753679018!2d78.09705109984208!3d9.921458438489699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf5d94424f23%3A0xe0c19c82ee4c8ce4!2sBala%20Technologies!5e0!3m2!1sen!2sin!4v1709019739649!5m2!1sen!2sin"
           ></iframe>
         </div>
-        <div className="md:text-left text-left flex flex-col gap-5 items-start max-w-xs py-10 md:py-5">
-          <div className="flex items-top mb-2">
+        <div className="md:text-center text-left flex flex-col gap-5  md:items-start w-full py-10 md:py-5">
+          <div className="flex items-center mb-2">
             <img
               src="https://icon-library.com/images/address-icon-white/address-icon-white-28.jpg"
               alt="Address"
@@ -61,7 +61,7 @@ export default function Footer({ contactref }) {
               625016.
             </p>
           </div>
-          <div className="flex items-top mb-2">
+          <div className="flex items-center mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -78,7 +78,7 @@ export default function Footer({ contactref }) {
             </svg>
             <p>Email: info@balatech.com</p>
           </div>
-          <div className="flex items-top">
+          <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

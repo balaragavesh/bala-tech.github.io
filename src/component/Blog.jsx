@@ -38,8 +38,8 @@ export default function Blog() {
 
   return (
     <div >
-      <div className="min-h-screen w-full md:w-full flex justify-center items-center flex-col font-Poppins px-5 md:px-40 bg-gray-300 text-lg text-justify py-10">
-        <h1 className="font-Montserrat text-5xl px-5 md:px-40 py-10 multicolor-text font-bold">
+      <div className="min-h-screen w-full md:w-full flex justify-center items-center flex-col font-Poppins px-5 md:px-40 bg-gray-100 text-lg text-justify py-10">
+        <h1 className="font-Montserrat text-3xl md:text-5xl px-5 md:px-40 py-10 multicolor-text font-bold">
           Why choose us
         </h1>
         <div className="">
@@ -57,7 +57,7 @@ export default function Blog() {
           {data.map((item, index) => (
             <h1
               key={index}
-              className="flex flex-col font-semibold animate-fade-up animate-ease-in text-5xl text-gray-100 font-Montserrat"
+              className="flex flex-col font-semibold animate-fade-up animate-ease-in text-2xl md:text-5xl text-gray-100 font-Montserrat"
             >
               {item.h1}{" "}
               <span className="text-lg text-gray-200 font-Poppins">

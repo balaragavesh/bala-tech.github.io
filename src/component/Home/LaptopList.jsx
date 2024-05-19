@@ -16,7 +16,7 @@ export default function LaptopList({laptopref}) {
     <div ref={laptopref} className="bg-white relative grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 p-10 md:p-20 gap-7">
       {isLaptop ? (
         <>
-          <h1 className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-4 font-Poppins my-10 font-bold text-center text-5xl text-slate-700">
+          <h1 className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-4 font-Poppins my-10 font-bold text-center text-3xl md:text-5xl text-slate-700">
             Laptops
             <svg
               xmlns="http://www.w3.org/2000/svg"
