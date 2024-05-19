@@ -19,7 +19,7 @@ export default function About({ aboutref }) {
           </p>
         </div>
         <div className="flex justify-center md:justify-end w-full md:w-1/3 h-auto md:h-1/2 mt-5 md:mt-0">
-          <img src="src/assets/img3.jpg" alt="Image Description" className="w-full md:w-3/4" />
+          <img src="/img3.jpg" alt="Image Description" className="w-full md:w-3/4" />
         </div>
       </div>
     </div>
