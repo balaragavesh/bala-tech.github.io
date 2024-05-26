@@ -9,7 +9,7 @@ export default function About({ aboutref }) {
       <div className="flex flex-col md:flex-row font-medium">
         <div className="md:w-2/3 md:pr-10">
           <p className="text-black font-Poppins text-sm md:text-lg mt-5">
-            Welcome to our laptop sales and service website, dedicated to meeting the technology needs of Madurai, Tamil Nadu! As a premier destination for all things related to laptops, we take immense pride in catering to our customers' diverse requirements with top-notch products and exceptional service.
+          Welcome to Bala Technologies! your one-stop destination for all your laptop needs. We offer a wide range of professional laptop services and high-quality refurbished laptop and desktop sales. Our expert team ensures your devices perform at their best, whether you need repairs, maintenance, or an upgraded system.
           </p>
           <p className="text-black font-Poppins text-sm md:text-lg mt-5">
             We understand the pivotal role that laptops play in today's fast-paced world. Whether you're a student, a professional, or an entrepreneur, we aim to be your go-to hub for all your laptop needs in Madurai.

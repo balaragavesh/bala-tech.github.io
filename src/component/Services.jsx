@@ -3,7 +3,14 @@ import React from "react";
 export default function Services({ servicesref,handleContact }) {
   const serviceData = [
     {
-      title: "Repair Services",
+      title: "Chip level service",
+      description:
+        "Chip level service involves the meticulous process of diagnosing and repairing problems directly on the motherboard of your laptop. Instead of replacing entire boards or components, we identify and fix faults within the integrated circuits (ICs) and chips, offering a more precise and cost-effective solution.",
+      feature: ["feature 1", "feature 2", "feature 3"],
+      imgurl: "/chip.jpg",
+    },
+    {
+      title: "Repair services",
       description:
         " Our comprehensive repair services encompass resolving intricate hardware issues, including screen replacements, keyboard repairs, battery replacements, and intricate motherboard fixes, coupled with software troubleshooting. We prioritize rapid diagnostics and efficient solutions to restore your laptop's functionality promptly, ensuring minimal downtime and seamless user experience.",
       feature: ["feature 1", "feature 2", "feature 3"],
@@ -17,14 +24,14 @@ export default function Services({ servicesref,handleContact }) {
       imgurl: "/upgrades.jpg",
     },
     {
-      title: "Virus Removal",
+      title: "Virus removal",
       description:
         " Our meticulous virus removal service employs cutting-edge tools and expertise to eradicate viruses, malware, spyware, and other malicious threats from your laptop. We conduct in-depth scans, remove detected threats, and fortify your system's security measures, ensuring a secure computing environment free from potential hazards, safeguarding your sensitive data and privacy",
       feature: ["feature 1", "feature 2", "feature 3"],
       imgurl: "/virus.jpg",
     },
     {
-      title: "Data Recovery",
+      title: "Data recovery",
       description:
         "In instances of data loss due to accidental deletion, system crashes, or hard drive failures, our data recovery service employs advanced techniques to retrieve lost files, documents, photos, and crucial information. We navigate through damaged storage media, employing specialized recovery methods to restore your valuable data, minimizing the impact of unforeseen data loss scenarios",
       feature: ["feature 1", "feature 2", "feature 3"],
@@ -36,6 +43,13 @@ export default function Services({ servicesref,handleContact }) {
         "We expertly install and set up your computer's operating system, like Windows, ensuring it's correctly configured and ready to use. Our seamless installation process guarantees a smooth transition and optimal functionality, tailored to your specific needs, providing a user-friendly and efficient computing experience",
       feature: ["feature 1", "feature 2", "feature 3"],
       imgurl: "/operating_system.jpg",
+    },
+    {
+      title: "Preventative maintenance",
+      description:
+        " we provide preventative maintenance services to enhance your laptop’s performance and extend its lifespan. This includes cleaning internal components to remove dust and debris, applying fresh thermal paste to improve heat dissipation, and performing system tune-ups to optimize software and hardware settings.",
+      feature: ["feature 1", "feature 2", "feature 3"],
+      imgurl: "/maintain.jpg",
     },
   ];
   console.log(serviceData);
